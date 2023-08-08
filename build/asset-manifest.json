@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Animerchv3/static/css/main.5082b539.css",
+    "main.js": "/Animerchv3/static/js/main.ea4f0b16.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Animerchv3/static/js/787.28cb0dcd.chunk.js",
+    "static/media/logo.png": "/Animerchv3/static/media/logo.864bfd6200cd6adf80fa.png",
+    "static/media/background.png": "/Animerchv3/static/media/background.53d47e43182ec642ba6e.png",
+    "index.html": "/Animerchv3/index.html",
+    "main.5082b539.css.map": "/Animerchv3/static/css/main.5082b539.css.map",
+    "main.ea4f0b16.js.map": "/Animerchv3/static/js/main.ea4f0b16.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Animerchv3/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5082b539.css",
+    "static/js/main.ea4f0b16.js"
+  ]
+}

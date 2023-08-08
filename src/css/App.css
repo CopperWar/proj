@@ -1,0 +1,144 @@
+body {
+  background: url("/src/images/background.png") center center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.logo {
+  height: 150px;
+}
+
+:root {
+  --border-color: rgb(255, 255, 255, 0.1);
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.643);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 400;
+  font-size: larger;
+}
+
+.links-section {
+  display: flex;
+  gap: 65px;
+  box-sizing: border-box;
+  margin: auto;
+  margin-right: 170px;
+}
+
+.links-section a:hover {
+  border-bottom: 1px solid white;
+}
+
+main {
+  flex-grow: 1;
+  margin: auto;
+  width: 1500px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.main {
+  background-color: #0000004d;
+}
+main > article {
+  display: grid;
+  grid-template-areas:
+    "clothes1-data clothes1-data clothes1"
+    "brand brand  brand"
+    "clothes2  clothes2-data clothes2-data";
+  grid-gap: 30px;
+}
+
+main > article > .main_content {
+  height: 650px;
+}
+
+.clothes1-data {
+  grid-area: clothes1-data;
+  box-sizing: border-box;
+  padding: 50px;
+  background: url("../images/bgimg/clothes1bg.png") no-repeat center
+    center/cover;
+  color: black;
+}
+
+.clothes1_text {
+  margin-top: 6%;
+  font-size: 18px;
+}
+.clothes1_text h1 {
+  font-size: 36px;
+}
+
+.clothes1 {
+  background: url("../images/3.png") no-repeat center center/cover;
+  content: "";
+  grid-area: clothes1;
+  padding: 150px;
+}
+.clothes2-data {
+  grid-area: clothes2-data;
+  box-sizing: border-box;
+  padding: 50px;
+  background: url("../images/bgimg/clothes1bg.png") no-repeat center
+    center/cover;
+  color: black;
+}
+.clothes2 {
+  background: url("../images/4.png") no-repeat center center/cover;
+  content: "";
+  padding: 150px;
+  grid-area: clothes2;
+}
+.clothes2_text {
+  margin-top: 6%;
+  font-size: 18px;
+}
+.clothes2_text h1 {
+  font-size: 36px;
+}
+.brand {
+  grid-area: brand;
+}
+
+.clothes1,
+.clothes1-data,
+.clothes2,
+.clothes2-data,
+.brand {
+  border: 2px solid white;
+  box-shadow: 0 0 10px white;
+  transition: all 0.2s ease;
+}
+
+.clothes1-data:hover,
+.clothes1:hover,
+.clothes2-data:hover,
+.clothes2:hover,
+.brand:hover {
+  border: 2px solid white;
+  box-shadow: 0 0 20px rgba(0, 0, 255, 0.7);
+  animation: glow 1.5s infinite alternate;
+}

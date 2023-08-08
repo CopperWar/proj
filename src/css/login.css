@@ -1,0 +1,91 @@
+
+
+
+
+body {
+  overflow: visible;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0px;
+  margin: 0px;
+}
+
+.login_bg {
+  margin: 50px;
+  background-color: rgba(0, 0, 0, 0.643);
+  border-radius: 20px;
+  width: 600px;
+  margin: auto;
+  margin-top: 65px;
+  height: 700px;
+}
+
+.login_title {
+  padding-top: 40px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.login_ess {
+  font-size: larger;
+  padding-left: 140px;
+  padding-right: auto;
+}
+
+.email_box,
+.password_box {
+  padding: 10px;
+  width: 300px;
+  margin-top: 7px;
+  border: 1px solid rgba(255, 255, 255, 0.555);
+  background-color: rgba(255, 255, 255, 0.151);
+  border-radius: 3px;
+  color: white;
+}
+
+.email_box:hover,
+.password_box:hover {
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.submit_box {
+  height: 50px;
+  width: 320px;
+  border-radius: 25px;
+  font-size: 15px;
+  background-color: rgb(21, 238, 111);
+  font-weight: bold;
+  transition: all;
+  transition-duration: 0.5s;
+}
+
+.logo_login {
+  position: static;
+  background-color: black;
+  height: 100px;
+  margin-top: 0px;
+}
+.submit_box:hover {
+  transform: scale(1.1);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.register_link {
+  color: rgb(21, 238, 111);
+}
+
+.register_link:hover {
+  text-decoration: underline;
+}

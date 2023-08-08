@@ -1,0 +1,134 @@
+body {
+  overflow: scroll;
+  overflow-x: hidden;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+.user_box,
+.first_box,
+.last_box,
+.email_box,
+.password_box,
+.phone_box {
+  padding: 10px;
+  width: 300px;
+  margin-top: 7px;
+  border: 1px solid rgba(0, 0, 0, 0.397);
+  background-color: rgba(255, 255, 255, 0.151);
+  border-radius: 3px;
+  color: white;
+}
+
+.user_box:hover,
+.first_box:hover,
+.last_box:hover,
+.email_box:hover,
+.password_box:hover,
+.phone_box:hover {
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.register_title {
+  font-size: 50px;
+  text-align: center;
+}
+
+
+.submit_box {
+  height: 50px;
+  width: 340px;
+  margin-left: -10px;
+  margin-top: 20px;
+  border-radius: 25px;
+  border: 1px solid rgb(21, 238, 111);
+  font-size: 15px;
+  background-color: rgb(21, 238, 111);
+  font-weight: bold;
+  transition: all;
+  transition-duration: 0.5s;
+}
+
+.submit_box:hover {
+  transform: scale(1.1);
+}
+
+.custom-radio {
+  display: inline-flex;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 15px;
+}
+
+.custom-radio input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.custom-radio label {
+  position: relative;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+.custom-radio label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #bbb;
+  border-radius: 50%;
+}
+
+.custom-radio input:checked ~ label:before {
+  border-color: #4caf50;
+  background-color: #4caf50;
+}
+
+.custom-radio label:after {
+  content: "";
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #fff;
+  display: none;
+}
+
+.custom-radio input:checked ~ label:after {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.register_link {
+  color: rgb(21, 238, 111);
+}
+
+.register_link:hover {
+  text-decoration: underline;
+}
+
+.login_here_text {
+  text-align: center;
+  margin-left: 22px;
+}
